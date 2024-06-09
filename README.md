@@ -22,7 +22,7 @@ This theme contains some cssclasses that allow you to hide some elements from th
 
 To make notes look cleaner I removed the properties heading, and the properties fold button is only revealed on hover. 
 
-![properties-fold-reveal](screenshots/properties-fold-reveal.PNG)
+![properties-fold-reveal](screenshots/properties-fold-reveal.png)
 
 On mobile I removed the button to open the left sidebar, because the sidebar can be opened with the swipe. The button now is only visible in the canvas view.
 
