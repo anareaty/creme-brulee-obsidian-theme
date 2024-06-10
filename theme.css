@@ -50,19 +50,19 @@ body {
 .theme-dark {
 
   --color-creme-0: hsl(30, 20%, 10%);
-  --color-creme-1: hsl(27, 14%, 15%);
-  --color-creme-2: hsl(30, 15%, 13%);;
-  --color-creme-3: hsl(27, 25%, 20%);
+  --color-creme-1: hsl(31, 20%, 10%);
+  --color-creme-2: hsl(27, 17%, 12%);
+  --color-creme-3: hsl(27, 20%, 17%);
   --color-creme-4: hsl(34, 24%, 30%);
   --color-creme-5: hsl(34, 36%, 30%);
   --color-creme-6: hsl(31, 30%, 50%);
   --color-creme-7: hsl(35, 27%, 55%);
-  --color-creme-8: hsl(34, 50%, 80%);
+  --color-creme-8: hsl(34, 50%, 70%);
 
-  --color-creme-gray-1: hsl(35, 20%, 10%);
-  --color-creme-gray-2: hsl(35, 20%, 8%);
+  --color-creme-gray-1: hsl(35, 20%, 13%);
+  --color-creme-gray-2: hsl(35, 20%, 17%);
   --color-creme-fade: hsla(32, 8%, 67%, 0.5);
-  --color-shadow: hsla(0, 0%, 0%, 0.8);
+  --color-shadow: hsla(33, 90%, 5%, 0.8);
 
   --color-red: #c25757;
   --color-orange: #cf864a;
@@ -298,7 +298,7 @@ margin-left: 6px;
 
 .workspace-ribbon, 
 .mod-left-split.mod-sidedock > .workspace-leaf-resize-handle,
-.mod-left-split.mod-sidedock > .workspace-leaf-resize-handle {
+.mod-right-split.mod-sidedock > .workspace-leaf-resize-handle {
   --divider-color: transparent;
 }
 
