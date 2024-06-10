@@ -541,7 +541,7 @@ button:not(.clickable-icon) {
   box-shadow: none;
 }
 
-button:not(.clickable-icon, .mod-cta) {
+button:not(.clickable-icon, .mod-cta, .mod-warning) {
   background-color: var(--button-background);
 } 
 
