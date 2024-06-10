@@ -233,7 +233,9 @@ body {
   --hr-thickness: 1px;
   --canvas-dot-pattern: transparent;
   --media-max-width: 750px;
+  /*
   --profile-tab-height: 40px;
+  */
   --collapse-icon-color-collapsed: var(--text-faint);
   --vault-profile-color: var(--text-muted);
   --font-semibold: 700;
@@ -314,7 +316,7 @@ margin-left: 6px;
 .workspace-sidedock-vault-profile {
   --tab-outline-color: var(--color-creme-3);
 }
-
+/*
 .workspace-sidedock-vault-profile {
 justify-content: start !important;
 margin-left: calc(0px - var(--ribbon-width));
@@ -332,7 +334,7 @@ height: var(--profile-tab-height) !important;
 .workspace-drawer-vault-actions .clickable-icon:first-child {
   order: 2;
 }
-
+*/
   
 
 /* TEXT FORMATTINGS */
