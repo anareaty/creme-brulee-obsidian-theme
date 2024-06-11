@@ -703,6 +703,10 @@ body .metadata-input-longtext::-webkit-scrollbar {
   left: -10px;
 }
 
+.is-mobile .metadata-properties-heading {
+  left: 0px;
+}
+
 .metadata-properties-heading:hover, .metadata-container:hover .collapse-indicator{
   opacity: 1;
 }
