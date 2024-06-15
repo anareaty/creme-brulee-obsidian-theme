@@ -343,6 +343,11 @@ height: var(--profile-tab-height) !important;
   padding: 0 2px !important;
 }
 
+mark {
+  border-radius: 4px;
+}
+
+
 .cm-highlight:not(
   .cm-highlight + .cm-highlight,
   .cm-highlight + .cm-widgetBuffer + span + .cm-widgetBuffer + .cm-highlight,
@@ -374,8 +379,9 @@ height: var(--profile-tab-height) !important;
   color: var(--tag-color) !important;
 }
 
-mark {
-  border-radius: 4px;
+.cm-inline-code.cm-highlight {
+  font-size: var(--font-text-size) !important;
+  background-color: var(--code-background) !important;
 }
   
 
