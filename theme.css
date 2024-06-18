@@ -347,7 +347,6 @@ mark {
   border-radius: 4px;
 }
 
-
 .cm-highlight:not(
   .cm-highlight + .cm-highlight,
   .cm-highlight + .cm-widgetBuffer + span + .cm-widgetBuffer + .cm-highlight,
@@ -373,16 +372,19 @@ mark {
   border-radius: 0;  
 }
 
-.cm-hashtag-end.cm-highlight {
+.cm-hashtag.cm-highlight {
   font-size: var(--font-text-size);
   background-color: var(--tag-background) !important;
   color: var(--tag-color) !important;
 }
 
+
+
 .cm-inline-code.cm-highlight {
   font-size: var(--font-text-size) !important;
   background-color: var(--code-background) !important;
 }
+
   
 
 
@@ -779,12 +781,19 @@ body .metadata-input-longtext::-webkit-scrollbar {
 
 /* Center image */
 
-.internal-embed.image-embed{
+.internal-embed.image-embed {
   text-align: center;
 }
 
+
+.markdown-source-view.mod-cm6 .cm-content > img {
+  margin: auto !important;
+}
+
+
 .cm-line:has(.image-embed),
-p:has(>.image-embed) {
+p:has(>.image-embed),
+.markdown-preview-sizer > div > p:has(>img) {
   text-align: center;
 }
 
